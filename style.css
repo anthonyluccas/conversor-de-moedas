@@ -67,7 +67,7 @@ button:active {
     opacity: 0.6;
 }
 
-section{
+section {
     border: 1px solid #772FD3;
     border-radius: 20px;
     margin-top: 36px;
@@ -77,24 +77,26 @@ section{
     align-items: center;
 }
 
-.seta-img{
+.seta-img {
     margin: 15px 0px;
 }
 
-.caixa{
+.caixa {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 4px;
 }
 
-.moeda{
+.nome-moeda-a-converter,
+.nome-moeda-convertida {
     color: #777777;
     font-size: 14px;
     font-weight: 400;
 }
 
-.valor-moeda{
+.valor-converter,
+.valor-convertido {
     color: #555555;
     font-size: 20px;
     font-weight: 700;
